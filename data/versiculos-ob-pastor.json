@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "versiculo": "João 3:16",
+    "texto": "Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna.",
+    "tema": "Amor Divino",
+    "testamento": "Novo",
+    "livro": "João",
+    "capitulo": 3,
+    "versos": "16",
+    "resumo_historico": "Jesus a Nicodemos em Jerusalém, explicando o propósito de Sua vinda"
+  },
+  {
+    "id": 2,
+    "versiculo": "João 10:11",
+    "texto": "Eu sou o bom pastor. O bom pastor dá a sua vida pelas ovelhas.",
+    "tema": "Identidade em Cristo",
+    "testamento": "Novo",
+    "livro": "João",
+    "capitulo": 10,
+    "versos": "11",
+    "resumo_historico": "Jesus declarando Sua identidade como o Bom Pastor que cuida do rebanho"
+  },
+  {
+    "id": 3,
+    "versiculo": "Romanos 8:28",
+    "texto": "Sabemos que Deus faz cooperar todas as coisas para o bem daqueles que o amam, daqueles que são chamados segundo o seu propósito.",
+    "tema": "Propósito e Chamado",
+    "testamento": "Novo",
+    "livro": "Romanos",
+    "capitulo": 8,
+    "versos": "28",
+    "resumo_historico": "Paulo escrevendo aos romanos sobre o propósito de Deus mesmo em meio às dificuldades"
+  },
+  {
+    "id": 4,
+    "versiculo": "Salmos 23:1",
+    "texto": "O Senhor é o meu pastor, nada me faltará.",
+    "tema": "Paz Interior",
+    "testamento": "Antigo",
+    "livro": "Salmos",
+    "capitulo": 23,
+    "versos": "1",
+    "resumo_historico": "Davi expressando confiança no cuidado de Deus como um pastor"
+  },
+  {
+    "id": 5,
+    "versiculo": "Efésios 2:8-9",
+    "texto": "Porque pela graça sois salvos, mediante a fé; e isto não vem de vós; é dom de Deus; não de obras, para que ninguém se glorie.",
+    "tema": "Graça e Perdão",
+    "testamento": "Novo",
+    "livro": "Efésios",
+    "capitulo": 2,
+    "versos": "8-9",
+    "resumo_historico": "Paulo explicando a salvação por graça, não por obras"
+  },
+  {
+    "id": 6,
+    "versiculo": "Hebreus 11:1",
+    "texto": "Ora, a fé é a certeza de coisas que se esperam, a convicção de fatos que se não veem.",
+    "tema": "Fé e Confiança",
+    "testamento": "Novo",
+    "livro": "Hebreus",
+    "capitulo": 11,
+    "versos": "1",
+    "resumo_historico": "Definição de fé para cristãos hebreus que enfrentavam perseguição"
+  },
+  {
+    "id": 7,
+    "versiculo": "Romanos 15:13",
+    "texto": "Que o Deus da esperança vos encha de toda a alegria e paz no vosso crer, para que sejais abundantes em esperança, pelo poder do Espírito Santo.",
+    "tema": "Esperança em Tempos Difíceis",
+    "testamento": "Novo",
+    "livro": "Romanos",
+    "capitulo": 15,
+    "versos": "13",
+    "resumo_historico": "Paulo desejando esperança e alegria para a comunidade romana"
+  },
+  {
+    "id": 8,
+    "versiculo": "João 14:6",
+    "texto": "Jesus lhe respondeu: Eu sou o caminho, a verdade e a vida; ninguém vem ao Pai senão por mim.",
+    "tema": "Identidade em Cristo",
+    "testamento": "Novo",
+    "livro": "João",
+    "capitulo": 14,
+    "versos": "6",
+    "resumo_historico": "Jesus respondendo a Tomás durante Sua última ceia com os discípulos"
+  },
+  {
+    "id": 9,
+    "versiculo": "Mateus 11:28",
+    "texto": "Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei.",
+    "tema": "Paz Interior",
+    "testamento": "Novo",
+    "livro": "Mateus",
+    "capitulo": 11,
+    "versos": "28",
+    "resumo_historico": "Jesus convidando os cansados e oprimidos para descanso nEle"
+  },
+  {
+    "id": 10,
+    "versiculo": "2 Timóteo 1:7",
+    "texto": "Porque Deus não nos deu espírito de covardia, mas de poder, de amor e de domínio próprio.",
+    "tema": "Força e Coragem",
+    "testamento": "Novo",
+    "livro": "2 Timóteo",
+    "capitulo": 1,
+    "versos": "7",
+    "resumo_historico": "Paulo encorajando Timóteo a ser corajoso no ministério"
+  },
+  {
+    "id": 11,
+    "versiculo": "1 João 1:7",
+    "texto": "Mas, se andarmos na luz, como ele está na luz, mantemos comunhão uns com os outros, e o sangue de Jesus, seu Filho, nos purifica de todo pecado.",
+    "tema": "Comunhão com Deus",
+    "testamento": "Novo",
+    "livro": "1 João",
+    "capitulo": 1,
+    "versos": "7",
+    "resumo_historico": "João descrevendo comunhão com Deus e limpeza pelo sangue de Jesus"
+  },
+  {
+    "id": 12,
+    "versiculo": "Romanos 8:37",
+    "texto": "Mas em todas estas coisas somos mais do que vencedores por meio daquele que nos amou.",
+    "tema": "Vitória Espiritual",
+    "testamento": "Novo",
+    "livro": "Romanos",
+    "capitulo": 8,
+    "versos": "37",
+    "resumo_historico": "Paulo afirmando vitória espiritual através do amor de Cristo"
+  }
+]
