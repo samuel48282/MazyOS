@@ -1,115 +1,82 @@
-# MazyOS — Sistema operacional do negócio
+# O Bom Pastor — MazyOS
 
-Sua empresa roda em cima desse arquivo. Aqui ficam as regras de operação
-do MazyOS — como o Claude lê o contexto, aprende com correções, mantém
-tudo atualizado e cria skills novas conforme a operação evolui.
+> O sistema operacional do seu negócio de criação de conteúdo digital cristão.
+> Aqui você produz, publica, cresce a audiência e monetiza. O MazyOS
+> aprende com você e se adapta conforme a operação evolui.
 
-Esse arquivo é editável. Quando o `/instalar` rodar, ele complementa o
-final dessa página com as regras específicas do seu negócio.
+## O que é esse workspace
 
----
+**O Bom Pastor** — marca cristã focada em criação de conteúdo digital inspirador em fé, esperança e propósito. Distribuição em Facebook, Instagram, YouTube e Shorts/Reels. Aqui eu produzo, edito, publico, gerencio audiência e transformo visualizações em renda.
 
-## Contexto do negócio
+**Estrutura de pastas:**
+- `_memoria/` — quem eu sou, como falo, o que está em foco
+- `identidade/` — cores, fontes, logo, padrão visual
+- `marketing/` — conteúdo, roteiros, ideias, calendário (saída das skills)
+- `saidas/` — análises, relatórios, dados de performance
+- `dados/` — arquivos a analisar (CSV, planilhas de audiência)
+- `scripts/` — utilitários e automações
 
-No início de toda conversa, ler os seguintes arquivos (quando existirem
-e estiverem preenchidos):
+## Quem sou
 
-1. `_memoria/empresa.md` — quem é o usuário, o que faz, como funciona o negócio
-2. `_memoria/preferencias.md` — tom de voz, estilo de escrita, o que evitar
-3. `_memoria/estrategia.md` — foco atual, prioridades, prazos
+Sou criador de conteúdo cristão focado em **fé, motivação, esperança e bem-estar holístico**. Produzo mensagens inspiradoras baseadas em fé para ajudar pessoas a encontrar propósito, paz e transformação real através de conteúdo emocional, reflexões e dicas práticas.
 
-Usar essas informações como base pra qualquer resposta ou decisão. Ao
-sugerir prioridades, formatos ou abordagens, considerar o foco atual
-descrito em `estrategia.md`.
+**Identidade:** O Bom Pastor — marca cristã centrada em fé genuína, esperança e propósito. Marca: autenticidade, compaixão e foco em transformação espiritual e prática (não promessas falsas).
 
-Pra qualquer tarefa visual (carrossel, post, landing page), consultar
-`identidade/design-guide.md` como referência de estilo.
+## O que produzo
 
-Não é necessário listar o que foi lido nem confirmar a leitura. Apenas
-usar o contexto naturalmente.
+- **Vídeos curtos** para YouTube Shorts (verticals, 60-180s)
+- **Vídeos para YouTube** (10-20 minutos, conteúdo profundo)
+- **Conteúdo para Facebook** (vídeos, posts, carrosséis)
+- **Reels e Shorts** (altamente otimizados para viralização)
+- **Roteiros, títulos e thumbnails** que vendem clique e retenção
 
----
+## Minha audiência
 
-## Fluxo de trabalho
+Pessoas em busca de esperança, fé genuína, motivação e bem-estar holístico. Cristãos e simpatizantes da fé que desejam mensagens autênticas de esperança. Audiência em crescimento — foco atual é aumentar visualizações, retenção e engajamento para chegar à monetização no YouTube Partner e Facebook Revenue.
 
-Antes de executar qualquer tarefa, verificar se existe skill relevante
-em `.claude/skills/`. Se encontrar, seguir as instruções da skill. Se
-não encontrar, executar a tarefa normalmente.
+## Tom de voz
 
-Ao concluir uma tarefa que não tinha skill mas parece repetível (o
-usuário provavelmente vai pedir de novo no futuro), perguntar:
+**Inspirador, esperançoso e emocional.** Falo como amigo, não como guru. Uso emojis estratégicos (🌿, 💚, ✨) para reforçar sentimentos. Mensagens que transformam, sem promessas falsas.
 
-> "Isso pode virar uma skill pra próxima vez. Quer que eu crie?"
+*Exemplo:* "Você não precisa viver com dores todos os dias. Muitas pessoas estão descobrindo formas naturais de aliviar sem depender apenas de remédios."
 
-Não perguntar pra tarefas pontuais ou perguntas simples. Só quando o
-padrão de repetição for claro.
+**Evitar:** robótico, guru-speak, palavras difíceis desnecessárias, conteúdo sem emoção, promessas exageradas.
 
----
+## Posicionamento
 
-## Aprender com correções
+**"Fé • Esperança • Propósito"** — O Bom Pastor oferece esperança genuína baseada em fé cristã, combinada com transformação prática e possível. Diferencial: foco em propósito espiritual e bem-estar genuíno, não em lucro rápido ou promessas vazias.
 
-Quando o usuário corrigir algo, melhorar uma resposta ou dar uma
-instrução que parece permanente (frases como "na verdade é assim", "não
-faça mais isso", "prefiro assim", "sempre que...", "evita...", "da
-próxima vez..."), perguntar:
+## Prioridade agora
 
-> "Quer que eu salve isso pra não precisar repetir?"
+**Crescer audiência + Aumentar retenção + Viralizar conteúdo.** Tudo serve esse objetivo — ideias, roteiros, títulos, frequência. Quando a audiência crescer consistentemente, a monetização segue naturalmente.
 
-Se sim, identificar onde faz mais sentido salvar:
+## Regras do sistema
 
-- **Sobre o negócio** (clientes, serviços, mercado) → `_memoria/empresa.md`
-- **Sobre preferências e estilo** (tom de voz, formato, o que evitar) → `_memoria/preferencias.md`
-- **Sobre prioridades e foco** (projetos, metas, prazos) → `_memoria/estrategia.md`
-- **Regra de comportamento nessa pasta** → próprio `CLAUDE.md`
+- Conteúdo novo salvar em `marketing/conteudo/<tipo>/<tema>-<data>/`
+- Cada vídeo tem: roteiro, títulos testados, thumbnail, agenda de publicação
+- Calendário editorial atualizado sempre que planejar semana
+- Performance rastreada em `saidas/relatorios/`
+- Ideas vault em `marketing/ideias/` — nunca se perde uma ideia
 
-Salvar com uma linha nova clara, sem reformatar o arquivo inteiro.
-Confirmar mostrando a linha adicionada.
+## Skills principais que usamos
 
-Não perguntar se a correção for óbvia de contexto imediato (ex: "na
-verdade o arquivo se chama X"). Só perguntar quando a informação tiver
-valor duradouro.
+- `/abrir` — carrega contexto no início da sessão
+- `/carrossel` — cria artes visuais com identidade
+- `/seo` — estratégia completa (keywords, on-page, conteúdo)
+- `/publicar-tema` — transforma tema em artigo + carrossel + legendas
+- `/analisar-dados` — lê CSVs de performance do YouTube/Facebook
+- `/mapear-rotinas` — transforma tarefas repetitivas em skills
+- `/salvar` — commit + push no GitHub
 
----
+## Próximos passos
 
-## Manter contexto atualizado
-
-Ao terminar uma tarefa que mudou algo relevante (cliente novo, skill
-nova, mudança de foco, processo novo, ferramenta instalada, estrutura
-alterada), perguntar:
-
-> "Isso mudou algo no teu contexto. Quer que eu atualize a memória?"
-
-Se sim, identificar o que atualizar:
-
-- **Cliente, serviço, ferramenta, equipe** → `_memoria/empresa.md`
-- **Mudança de prioridade ou foco** → `_memoria/estrategia.md`
-- **Tom ou estilo** → `_memoria/preferencias.md`
-- **Pasta, regra de organização, skill criada** → `CLAUDE.md`
-- **Visual (cores, fontes, logo)** → `identidade/design-guide.md`
-
-Mostrar o que vai mudar antes de salvar. Não reformatar o arquivo
-inteiro, só adicionar ou editar a linha relevante.
-
-**Quando NÃO perguntar:**
-- Tarefas pontuais sem impacto no contexto (escrever um email avulso, criar um post)
-- Perguntas simples ou conversas sem ação
-- Mudanças já salvas pelo bloco "Aprender com correções"
-
-**Dica:** rode `/atualizar` pra uma varredura completa quando houver dúvida.
+1. Definir **logo e identidade visual final** (conceito: simples, moderna, natureza + esperança)
+2. Montar **calendário editorial** para os próximos 30 dias
+3. Criar **sistema de ideias virais** — o que funciona, o que testar
+4. Estruturar **rotinas de produção** — ideias → roteiro → edição → publicação
+5. Acompanhar **métricas semana a semana** (vistas, retenção, compartilhamentos)
 
 ---
 
-## Criação de skills
-
-Quando o usuário pedir skill nova:
-
-1. Verificar se existe template relevante em `templates/skills/`. Se
-   existir, usar como base e adaptar pro contexto
-2. Perguntar se é específica desse projeto ou útil em qualquer:
-   - Específica → `.claude/skills/nome-da-skill/SKILL.md` (local)
-   - Universal → `~/.claude/skills/nome-da-skill/SKILL.md` (global)
-3. Ler `_memoria/empresa.md` e `_memoria/preferencias.md` pra calibrar
-   o conteúdo da skill ao contexto do negócio
-4. Se a skill precisar de arquivos de apoio (templates, exemplos),
-   criar dentro da pasta da skill
-5. Seguir o fluxo da skill-creator nativa do Claude Code
+**Última atualização:** 22 de maio de 2026 — transição de marca para O Bom Pastor  
+**Status:** Sistema operacional ativo — pronto pra crescer com nova identidade cristã
