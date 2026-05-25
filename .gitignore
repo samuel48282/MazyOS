@@ -24,3 +24,21 @@ node_modules/
 # Drop zone do usuário (só o README vai versionado)
 dados/*
 !dados/README.md
+
+# Environment Variables - NUNCA fazer commit
+.env
+.env.local
+
+# Secrets
+secrets/
+credentials/
+*.key
+*.pem
+private/
+
+# API Keys & Tokens
+.apikey
+.token
+
+# .env.example é permitido (é um template, não tem valores reais)
+!.env.example
